@@ -1,0 +1,39 @@
+# Игнорировать билд-артефакты и кэш
+bin/
+obj/
+.vs/
+.idea/
+*.user
+*.suo
+*.cache
+*.swp
+
+# Игнорировать NuGet-пакеты (кроме packages.lock.json)
+[Nn]u[Gg]et/
+*.nupkg
+packages/
+
+# Игнорировать выходные файлы сборки
+out/
+publish/
+*.exe
+*.dll
+*.pdb
+*.xml
+
+# Игнорировать логи и временные файлы
+logs/
+*.log
+*.tmp
+
+# Игнорировать файлы Rider/VS Code
+.vscode/
+.ionide/
+*.sln.iml
+
+# Игнорировать зависимости (если используются)
+node_modules/
+
+# Игнорировать Avalonia-специфичные файлы (если есть)
+avalonia.cache
+*.axaml.cs
